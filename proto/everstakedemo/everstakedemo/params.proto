@@ -1,0 +1,12 @@
+syntax = "proto3";
+package everstake_demo.everstakedemo;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "Everstake_demo/x/everstakedemo/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
